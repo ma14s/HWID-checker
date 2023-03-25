@@ -1,0 +1,33 @@
+﻿#include<iostream>
+using namespace std;
+int main()
+{
+	system("color c");
+	cout << "----------------------------------------\n";
+	cout << "welcome to my HWID checker created by ma14\n";
+	cout << "----------------------------------------\n";
+	system("pause");
+	cout << "----------------------------------------\n";
+	cout << "SMBIOS ";
+	system("wmic csproduct get uuid\n");
+	cout << "BIOS ";
+	system("wmic bios get serialnumber\n");
+	cout << "MOTHERBOARD ";
+	system("wmic baseboard get serialnumber\n");
+	cout << "Chassis ";
+	system("wmic systemenclosure get serialnumber\n");
+	cout << "CPU ";
+	system("wmic cpu get serialnumber\n");
+	cout << "HDD/SSD ";
+	system("HDD/SSD\n");
+	cout << "RAM ";
+	system("wmic memorychip get serialnumber\n");
+	cout << "WINDOWS PRODUCT ID ";
+	system("wmic os get serialnumber\n");
+	system("getmac\nٍ");
+	system("pause");
+
+
+
+	return 0;
+}
