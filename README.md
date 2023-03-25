@@ -1,2 +1,2 @@
 # HWID-checker
-Simple explanation of how to create HWID checker with c++
+Simple code to make HWID checker with c++
